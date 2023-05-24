@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Генератор тестов</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+
+  <script src="eel.js"></script>
+  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="block">
+    <h1>Генератор тестов</h1>
+
+    <h3>Выберите задания:</h3>
+    <div class="checkboxes">
+        <div class="checkgroup">
+            <div>
+                <input type="checkbox" class="check" id="theory" name="1" >
+                <label for="1">1</label>
+            </div>
+            <div>
+                <input type="checkbox" class="check" id="theory" name="2" >
+                <label for="2">2</label>
+            </div>
+            <div>
+                <input type="checkbox" class="check" id="theory" name="3" >
+                <label for="3">3</label>
+            </div>
+            <div>
+                <input type="checkbox" class="check" id="theory" name="4" >
+                <label for="4">4</label>
+            </div>
+            <div>
+                <input type="checkbox" class="check" id="theory" name="5" >
+                <label for="5">5</label>
+            </div>
+        </div>
+
+        <div class="checkgroup">
+            <div>
+                <input type="checkbox" class="check" id="practice" name="6" >
+                <label for="6">6</label>
+            </div>
+            <div>
+                <input type="checkbox" class="check" id="practice" name="7" >
+                <label for="7">7</label>
+            </div>
+            <div>
+                <input type="checkbox" class="check" id="practice" name="8" >
+                <label for="8">8</label>
+            </div>
+            <div>
+                <input type="checkbox" class="check" id="practice" name="9" >
+                <label for="9">9</label>
+            </div>
+            <div>
+                <input type="checkbox" class="check" id="practice" name="10" >
+                <label for="10">10</label>
+            </div>
+        </div>
+
+        <div class="checkgroup">
+            <div>
+                <input type="checkbox" class="check" id="practice" name="11" >
+                <label for="11">11</label>
+            </div>
+            <div>
+                <input type="checkbox" class="check" id="practice" name="12" >
+                <label for="12">12</label>
+            </div>
+            <div>
+                <input type="checkbox" class="check" id="practice" name="13" >
+                <label for="13">13</label>
+            </div>
+            <div>
+                <input type="checkbox" class="check" id="practice" name="14" >
+                <label for="14">14</label>
+            </div>
+            <div>
+                <input type="checkbox" class="check" id="practice" name="15" >
+                <label for="15">15</label>
+            </div>
+        </div>
+
+        <div class="checkgroup">
+            <div>
+                <input type="checkbox" class="check" id="practice" name="16" >
+                <label for="16">16</label>
+            </div>
+            <div>
+                <input type="checkbox" class="check" id="practice" name="17" >
+                <label for="17">17</label>
+            </div>
+            <div>
+                <input type="checkbox" class="check" id="all" name="all" >
+                <label for="all">все</label>
+            </div>
+        </div>
+
+    </div>
+
+    <h3>Выберите количество вариантов:</h3>
+    <div class="tasks">
+        <input type="number" id="numTasks" name="numTasks"
+        min="1" max="10" value="1">
+    </div>
+
+    <button>Сформировать варианты</button>
+</div>
+<div id="message" class="block disabled" style="color: rgb(95, 149, 72);">Варианты успешно сформированы!</div>
+</body>
+</html>
