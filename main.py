@@ -9,5 +9,5 @@ def make_variants(count, th_mask, pr_mask):
     constructor.make_variants(count, th_mask, pr_mask)
 
 
-eel.start('main.html', size=(800, 700))
+eel.start('main.html', mode='default', size=(800, 700))
 
